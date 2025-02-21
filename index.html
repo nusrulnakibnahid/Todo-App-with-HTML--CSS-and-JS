@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+          rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="container">
+        <h1>TO-DO APP</h1>
+        <div class="input-section">
+            <h3>Add New Task</h3>
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+        <div class="task-sections">
+            <div class="tasks">
+                <h3>INCOMPLETE TASKS</h3>
+                <ul id="taskList"></ul>
+            </div>
+            <div class="tasks">
+                <h3>COMPLETED TASKS</h3>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
